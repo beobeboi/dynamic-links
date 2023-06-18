@@ -1,5 +1,5 @@
 {
-  "name": "diagvn/dynamic-links",
+  "name": "beobeboi/dynamic-links",
   "description": "Firebase dynamic link vendor custom by Diag",
   "keywords": [
     "framework"
@@ -8,8 +8,8 @@
   "authors": [
     {
       "name": "Bradley Nguyen",
-      "email": "giang.nguyen@diag.vn",
-      "homepage": "https://github.com/GiangBeo"
+      "email": "beobeboi0905@gmail.com",
+      "homepage": "https://github.com/beobeboi"
     }
   ],
   "require": {
