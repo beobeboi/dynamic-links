@@ -59,6 +59,7 @@ class Client
                     $running = false;
                 } else {
                     $tried++;
+                    sleep(1);
                 }
             }
         }
