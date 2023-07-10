@@ -66,7 +66,7 @@ class DynamicLinkServiceProvider extends ServiceProvider
                 sprintf(
                     "Retrying request to %s.  Server responded with %s.  Will wait %s seconds.  This is attempt #%s",
                     $request->getUri()->getPath(),
-                    $response->getStatusCode(),
+                    $response ? $response->getStatusCode() : 0,
                     number_format($delay, 2),
                     $attemptNumber
                 )
